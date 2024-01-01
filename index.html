@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>OSMR Game</title>
+      <link rel="icon" href="/favicon.ico">
+      <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <p id="JS_Chk">Javascript failed to load</p>
+        Open Sauce Meguca Rapport | Pre-Alpha 1
+
+        <script> document.getElementById("JS_Chk").remove(); </script>
+
+        <!-- Libs -->
+        <script src="Lib/Pixi/pixi.min.js"></script>
+        <script src="./Lib/Live2D/live2dcubismcore.min.js"></script>
+        <script src="./Lib/Live2D/live2d.min.js"></script>
+        <script src="./Lib/Live2D/index.min.js"></script>
+        <script src="./Lib/Fontfaceobserver/fontfaceobserver.standalone.js"></script>
+
+
+        <!-- Boot -->
+        <script src="miscTools.js"></script>
+        <script src="initPixi.js"></script>
+        <script src="SetLanguage.js"></script>
+        <script src="CoreDS.js"></script>
+
+        <!-- Load Game Scripts -->
+        <script src="Game/osmrBase/Loader.js"></script>
+
+        <!-- Load Scnerios Scripts -->
+        <script src="Scenarios/Loader.js"></script>
+
+        <!-- Start Game -->
+        <script src="startGame.js"></script>
+    </body>
+
+</html>
